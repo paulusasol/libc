@@ -1678,6 +1678,9 @@ cfg_if! {
     } else if #[cfg(target_os = "redox")] {
         mod redox;
         pub use self::redox::*;
+    } else if #[cfg(target_os = "gnu")] {
+        mod gnu;
+        pub use self::gnu::*;
     } else {
         // Unknown target_os
     }

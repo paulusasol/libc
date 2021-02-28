@@ -1,0 +1,18 @@
+pub type blkcnt_t = i32;
+pub type blkcnt64_t = i64;
+pub type blksize_t = i32;
+pub type c_char = i8;
+pub type c_long = i32;
+pub type c_ulong = i32;
+pub type fsblkcnt_t = ::c_ulong;
+pub type fsfilcnt_t = ::c_ulong;
+pub type ino_t = ::c_ulong;
+pub type ino64_t = u64;
+pub type nlink_t = u32;
+pub type off_t = i32;
+pub type off64_t = i64;
+pub type rlim_t ::c_ulong;
+pub type rlim64_t = u64;
+pub type suseconds_t = i32;
+pub type time_t = i32;
+pub type wchar_t = i32;
